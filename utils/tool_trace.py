@@ -1,0 +1,10 @@
+trace_log = []
+
+def add_trace(step):
+    trace_log.append(step)
+
+def get_trace():
+    return trace_log
+
+def clear_trace():
+    trace_log.clear()
